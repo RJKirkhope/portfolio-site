@@ -1,8 +1,8 @@
 <template>
 <div>
-<h1 class="header">Technologies I have worked with.</h1>
   <div class="skills">
     <div class="transparent">
+<h1>Technologies I have worked with.</h1>
     <div class="bank-one">
       <img class="html5" src="../assets/html5.png" alt="html5">
       <img class="css3" src="../assets/css.png" alt="css">
@@ -46,41 +46,38 @@ export default {
   flex-direction: column;
   justify-content: space-around;
   width: 100vw;
-  
+  padding-top: 15vh;
 }
 .transparent{
 border: 1px solid black;
   border-radius: 10px;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  background-color:rgba(245, 240, 239, 0.6);
-}
-.header{
-  margin-top: 5vh;
+  margin-left: 10vw;
+  height: 70vh;
+  width: 80vw;
+  background-color:rgba(245, 240, 239, 0.7);
 }
 .bank-one{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 1vh;
 }
 .bank-two{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 5vh;
+  margin-top: 2vh;
 }
 .bank-three{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 5vh;
+  margin-top: 2vh;
 }
 .bank-four{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 5vh;
+  margin-top: 2vh;
 }
 .html5{
   height: 11vh;

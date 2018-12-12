@@ -1,7 +1,7 @@
 <template>
   <div class="horizontal-scroll" id="app">
-    <div><Header class="card"/>
-    <About class="card"/></div>
+    <Header class="card"/>
+    <About class="card"/>
     <Skills class="card"/>
     <Projects class="card"/>
     <Contact class="card"/>
@@ -35,6 +35,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color:rgb(3, 42, 54);
+  height: 100vh;
+  width: 100vw;
 }
 .horizontal-scroll {
   display: flex;
