@@ -1,6 +1,6 @@
 <template>
 <div>
-  <h1>Recent Projects</h1>
+  <h1 class="header">Recent Projects</h1>
   <div class="project-content">
     <div class="projects">
     <a href="https://travelbug-groupproject.firebaseapp.com/">TravelBug Group Project.</a>
@@ -25,5 +25,16 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 100vw;
+}
+.projects{
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  background-color:rgba(245, 240, 239, 0.6);
+}
+.header{
+  margin-top: 5vh;
 }
 </style>

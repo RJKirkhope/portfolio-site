@@ -1,10 +1,10 @@
 <template>
-  <div id="app">
-    <Header />
-    <About />
-    <Skills />
-    <Projects />
-    <Contact />
+  <div class="horizontal-scroll" id="app">
+    <div><Header class="card"/>
+    <About class="card"/></div>
+    <Skills class="card"/>
+    <Projects class="card"/>
+    <Contact class="card"/>
     <router-view/>
   </div>
 </template>
@@ -34,7 +34,17 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color:rgb(3, 42, 54);
 }
+.horizontal-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  background-size: 100%;
+  background-image: url(assets/background.jpeg);
+}
+  .card {
+    flex: 0 0 auto;
+  }
+
 </style>
