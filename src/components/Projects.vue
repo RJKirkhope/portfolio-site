@@ -35,7 +35,7 @@ export default {
   border-radius: 10px;
   height: 70vh;
   width: 80vw;
-  background-color:rgba(245, 240, 239, 0.7);
+  background-color:rgba(245, 240, 239, 0.8);
 }
 .project-content{
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -44,5 +44,18 @@ export default {
   text-align: center;
   color:rgb(3, 42, 54);
   font-size: 18pt;
+}
+@media only screen and (max-width: 400px){
+  .project{
+    padding-top: 5vh;
+  }
+  .project-content{
+    font-size: 12pt;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  .projects-transparent{
+    height: 90vh;
+  }
 }
 </style>

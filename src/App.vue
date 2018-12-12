@@ -38,11 +38,19 @@ export default {
   height: 100vh;
   width: 100vw;
 }
+@media only screen and (max-width: 400px) {
+  #app {
+    background-image: url(assets/background.jpeg);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+  }
+}
 .horizontal-scroll {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
-  background-size: 100%;
+  background-size: cover;
   background-image: url(assets/background.jpeg);
 }
   .card {

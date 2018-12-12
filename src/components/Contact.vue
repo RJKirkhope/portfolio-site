@@ -31,7 +31,7 @@ border: 1px solid black;
   margin-left: 10vw;
   height: 70vh;
   width: 80vw;
-  background-color:rgba(245, 240, 239, 0.7);
+  background-color:rgba(245, 240, 239, 0.8);
 }
 .contact-information{
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -40,6 +40,14 @@ border: 1px solid black;
   text-align: center;
   color:rgb(3, 42, 54);
   font-size: 18pt;
+}
+@media only screen and (max-width: 400px){
+.contact{
+  padding-top: 5vh;
+}
+.transparent-contact{
+  height: 90vh;
+}
 }
 
 </style>

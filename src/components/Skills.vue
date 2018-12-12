@@ -54,7 +54,7 @@ border: 1px solid black;
   margin-left: 10vw;
   height: 70vh;
   width: 80vw;
-  background-color:rgba(245, 240, 239, 0.7);
+  background-color:rgba(245, 240, 239, 0.8);
 }
 .bank-one{
   display: flex;
@@ -128,6 +128,86 @@ border: 1px solid black;
 .knex{
   height: 5vh;
   width: 14vw;
+  padding-top: 5vh;
+  padding-right: 1vw;
+}
+.postman{
+  height: 5vh;
+  width: 12vw;
+  padding-top: 3vh;
+}
+.node{
+  height: 14vh;
+  width: 8vw;
+}
+.github{
+  height: 10vh;
+  width: 8vw;
+  padding-top: 3vh;
+  margin-bottom: 1vh;
+}
+.react{
+  margin-left: -4vw;
+  height: 12vh;
+  width: 10vw;
+padding-top: 2vh;
+}
+@media only screen and (max-width: 400px){
+  .skills{
+    padding-top: 5vh;
+  }
+  .transparent{
+    height: 90vh;
+  }
+  .html5{
+  height: 11vh;
+  width: 9vw;
+  padding-top: 2vh;
+}
+.css3{
+  height: 10vh;
+  width: 6vw;
+  padding-top: 3vh;
+}
+.javaScript{
+  height: 10vh;
+  width: 7vw;
+  padding-top: 3vh;
+}
+.vue{
+  height: 10vh;
+  width: 8vw;
+  padding-top: 3vh;
+}
+.postgres{
+  height: 10vh;
+  width: 9vw;
+  padding-top: 3vh;
+}
+.heroku{
+  height: 11vh;
+  width: 8vw;
+  padding-top: 3vh;
+  margin-bottom: 2vh;
+}
+.cypress{
+  height: 5vh;
+  width: 17vw;
+  padding-top: 3vh;
+}
+.leaflet{
+  height: 5vh;
+  width: 17vw;
+  padding-top: 3vh;
+}
+.firebase{
+  height: 5vh;
+  width: 16vw;
+  padding-top: 7vh;
+}
+.knex{
+  height: 5vh;
+  width: 14vw;
   padding-top: 7vh;
   padding-right: 1vw;
 }
@@ -151,6 +231,7 @@ border: 1px solid black;
   height: 12vh;
   width: 10vw;
 padding-top: 2vh;
+}
 }
 
 </style>

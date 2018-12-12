@@ -1,9 +1,9 @@
 <template>
   <div class="about">
     <div class="transparent-about">
-    <div class="description">
+    <div class="about-description">
     <h1>About me.</h1>
-    <p> I have worked lots of jobs in many industries, and while most of them provide me with the stressful, hectic whirlwind I thrive in, the vast majority haven’t allowed me to embrace my creative nature. Becoming a full stack developer offers me an opportunity to work in an industry that is all about creative thinking and adapting to new challenges and technologies. I have recently completed the Galvanize web development program, and plan to take what I learned there and use it as a foundation for shaping myself into a skilled, knowledgeable developer. In the coming months I will be on the hunt for a job in the greater Denver metro to meet your needs for front and/or back end development. When I am not coding, I enjoy rock and ice climbing, dual sport motorcycling, and Dungeons and Dragons. Please feel free to check out some of my recent projects. </p>
+    <p class="paragraph"> I have worked lots of jobs in many industries, and while most of them provide me with the stressful, hectic whirlwind I thrive in, the vast majority haven’t allowed me to embrace my creative nature. Becoming a full stack developer offers me an opportunity to work in an industry that is all about creative thinking and adapting to new challenges and technologies. I have recently completed the Galvanize web development program, and plan to take what I learned there and use it as a foundation for shaping myself into a skilled, knowledgeable developer. In the coming months I will be on the hunt for a job in the greater Denver metro to meet your needs for front and/or back end development. When I am not coding, I enjoy rock and ice climbing, dual sport motorcycling, and Dungeons and Dragons. Please feel free to check out some of my recent projects. </p>
     </div>
     <img class="about-img" src="../assets/rj.png" alt="RJ Kirkhope">
     </div>
@@ -37,20 +37,37 @@ border: 1px solid black;
   margin-left: 2vw;
   height: 70vh;
   width: 80vw;
-  background-color:rgba(245, 240, 239, 0.7);
+  background-color:rgba(245, 240, 239, 0.8);
 }
 .about-img{
-height: 28vw;
-width: 43vw;
-padding-left: 5vw;
-padding-top: 10vh;
+height: 45vh;
+width: 35vw;
+margin-top: 10vh;
+margin-left: 3vw;
 border-radius: 50%;
 }
-.description{
+.about-description{
   display: flex;
   flex-direction: column;
   height: 40vh;
   width: 45vw;
-  padding-left: 1vw;
+}
+@media only screen and (max-width: 400px){
+.about{
+  padding-top: 5vh;
+}
+.transparent-about{
+  height: 90vh;
+}
+.about-img{
+  display: none;
+}
+.description{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.paragraph{
+  width: 78vw;
+}
 }
 </style>
