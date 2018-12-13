@@ -8,8 +8,8 @@
     <a class="anchor" href="https://github.com/RJKirkhope">Github</a>
     <br>
     <a class="anchor" href="https://drive.google.com/file/d/1SG9PtFEC1rqjukUOmOUc3uaOM7te_FLS/view?usp=sharing">Resume</a>
-    <p class="email">Email: rjkirkhope@gmail.com</p>
-    <p class="phone"> Phone : 303-717-3002</p>
+    <p class="phone">303-717-3002</p>
+    <p class="email">rjkirkhope@gmail.com</p>
     </div>
     </div>
   </div>
@@ -57,6 +57,7 @@ font-size:24pt;
 }
 .email{
 font-size: 24pt;
+margin-top: -1vh;
 }
 @media only screen and (max-width: 400px){
 
