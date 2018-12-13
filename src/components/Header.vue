@@ -23,7 +23,7 @@ export default {
 
 <style>
 .header-container{
-margin-left: 20vw;
+margin-left: 19vw;
 }
 .header-content{
 margin-left: 2vw;
@@ -48,7 +48,7 @@ border: 1px hidden black;
   margin-left: 2vw;
   margin-right: 5vw;
   height: 100vh;
-  background-color:rgba(245, 240, 239, 0.8);
+  background-color:rgba(245, 240, 239, 0.9);
 }
 @media only screen and (max-width: 400px){
 .header-img-mobile{

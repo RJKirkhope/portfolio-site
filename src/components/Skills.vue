@@ -1,10 +1,8 @@
 <template>
 <div>
   <div class="skills">
-    <div class="background-img-skills">
-    <div class="skills-transparent">
     <div class="skills-content">
-<h1 class="skills-header">Technologies I have worked with.</h1>
+<h1 class="skills-header">Technologies Worked With</h1>
     <div class="bank-one">
       <img class="html5" src="../assets/html5.png" alt="html5">
       <img class="css3" src="../assets/css.png" alt="css">
@@ -34,8 +32,6 @@
     </div>
     </div>
   </div>
-  </div>
-  </div>
 </template>
 
 <script>
@@ -52,13 +48,7 @@ export default {
   width: 100vw;
   height: 100vh;
 }
-.skills-transparent{
-border: 1px hidden black;
-  height: 100vh;
-  width: 80vw;
-  margin-left: 10vw;
-  background-color:rgba(245, 240, 239, 0.8);
-}
+
 .skills-content{
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -67,15 +57,11 @@ border: 1px hidden black;
   color:rgb(3, 42, 54);
   font-size: 18pt;
   padding-top: 10vh;
-}
-.background-img-skills{
-  background-image: url(../assets/code.png);
-  width: 100vw;
+  border: 1px hidden black;
   height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 80vw;
+  margin-left: 10vw;
+  background-color:rgba(245, 240, 239, 0.9);
 }
 .bank-one{
   display: flex;
@@ -175,9 +161,6 @@ padding-top: 2vh;
 }
 @media only screen and (max-width: 400px){
   
-  .skill-transparent{
-    height: 100vh;
-  }
   .skills-header{
     font-size: 24pt;
   }
