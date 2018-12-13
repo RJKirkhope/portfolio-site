@@ -4,7 +4,7 @@
     <div class="projects-transparent">
       <div class="project-content">
         <h1 class="projects-header">Recent Projects</h1>
-    <a class="proj-anchor" href="https://github.com/RJKirkhope/TravelBug-FE">TravelBug Group Project.</a>
+    <a class="proj-anchor" href="https://github.com/RJKirkhope/TravelBug-FE">TravelBug Group Project</a>
     <p>A four day group project that required a new team to build a functioning app in a framework none of us had ever touched(Vue). I was responsible for the google map integration and functionality.</p>
     <a class="proj-anchor" href="https://hangrygirlfriend-e7cf0.firebaseapp.com/">Hangry Girlfriend App</a>
     <p>A functioning CRUD app that helps users decide where they want to go for dinner. Built using Javascript for the front end, and Knex/node.js for the back end.</p>

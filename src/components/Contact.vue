@@ -66,6 +66,15 @@ font-size: 24pt;
 .contact-header{
   font-size: 24pt;
 }
+.anchor{
+  font-size: 16pt;
+}
+.phone{
+  font-size: 14pt;
+}
+.email{
+  font-size: 14pt;
+}
 }
 
 </style>
