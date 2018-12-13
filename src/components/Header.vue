@@ -23,7 +23,6 @@ export default {
 
 <style>
 .header-container{
-height: 100vh;
 margin-left: 20vw;
 }
 .header-content{
@@ -48,7 +47,7 @@ margin-right: 2vw;
 border: 1px hidden black;
   margin-left: 2vw;
   margin-right: 5vw;
-  height: 100vw;
+  height: 100vh;
   background-color:rgba(245, 240, 239, 0.8);
 }
 @media only screen and (max-width: 400px){
