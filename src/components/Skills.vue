@@ -1,8 +1,10 @@
 <template>
 <div>
   <div class="skills">
-    <div class="transparent">
-<h1>Technologies I have worked with.</h1>
+    <div class="background-img-skills">
+    <div class="skills-transparent">
+    <div class="skills-content">
+<h1 class="skills-header">Technologies I have worked with.</h1>
     <div class="bank-one">
       <img class="html5" src="../assets/html5.png" alt="html5">
       <img class="css3" src="../assets/css.png" alt="css">
@@ -29,6 +31,8 @@
       <img class="github" src="../assets/github.png" alt="github">
 
     </div>
+    </div>
+    </div>
   </div>
   </div>
   </div>
@@ -46,15 +50,32 @@ export default {
   flex-direction: column;
   justify-content: space-around;
   width: 100vw;
-  padding-top: 15vh;
+  height: 100vh;
 }
-.transparent{
-border: 1px solid black;
-  border-radius: 10px;
-  margin-left: 10vw;
-  height: 70vh;
+.skills-transparent{
+border: 1px hidden black;
+  height: 100vh;
   width: 80vw;
+  margin-left: 10vw;
   background-color:rgba(245, 240, 239, 0.8);
+}
+.skills-content{
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color:rgb(3, 42, 54);
+  font-size: 18pt;
+  padding-top: 10vh;
+}
+.background-img-skills{
+  background-image: url(../assets/code.png);
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .bank-one{
   display: flex;
@@ -153,85 +174,12 @@ border: 1px solid black;
 padding-top: 2vh;
 }
 @media only screen and (max-width: 400px){
-  .skills{
-    padding-top: 5vh;
+  
+  .skill-transparent{
+    height: 100vh;
   }
-  .transparent{
-    height: 90vh;
+  .skills-header{
+    font-size: 24pt;
   }
-  .html5{
-  height: 11vh;
-  width: 9vw;
-  padding-top: 2vh;
 }
-.css3{
-  height: 10vh;
-  width: 6vw;
-  padding-top: 3vh;
-}
-.javaScript{
-  height: 10vh;
-  width: 7vw;
-  padding-top: 3vh;
-}
-.vue{
-  height: 10vh;
-  width: 8vw;
-  padding-top: 3vh;
-}
-.postgres{
-  height: 10vh;
-  width: 9vw;
-  padding-top: 3vh;
-}
-.heroku{
-  height: 11vh;
-  width: 8vw;
-  padding-top: 3vh;
-  margin-bottom: 2vh;
-}
-.cypress{
-  height: 5vh;
-  width: 17vw;
-  padding-top: 3vh;
-}
-.leaflet{
-  height: 5vh;
-  width: 17vw;
-  padding-top: 3vh;
-}
-.firebase{
-  height: 5vh;
-  width: 16vw;
-  padding-top: 7vh;
-}
-.knex{
-  height: 5vh;
-  width: 14vw;
-  padding-top: 7vh;
-  padding-right: 1vw;
-}
-.postman{
-  height: 5vh;
-  width: 12vw;
-  padding-top: 3vh;
-}
-.node{
-  height: 14vh;
-  width: 8vw;
-}
-.github{
-  height: 10vh;
-  width: 8vw;
-  padding-top: 3vh;
-  margin-bottom: 1vh;
-}
-.react{
-  margin-left: -4vw;
-  height: 12vh;
-  width: 10vw;
-padding-top: 2vh;
-}
-}
-
 </style>
